@@ -17,7 +17,7 @@ public class TacoOrder {
 
     private Long id;
 
-    private Date placedAd;
+    private Date placedAt;
 
     @NotBlank(message="Delivery name is required")
     private String deliveryName;
